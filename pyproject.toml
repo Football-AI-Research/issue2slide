@@ -16,6 +16,7 @@ beautifulsoup4 = "^4.9.3"
 rich = "^10.1.0"
 mistune = "2.0.0rc1"
 lxml = "^4.6.3"
+icecream = "^2.1.0"
 
 [tool.poetry.dev-dependencies]
 PyGithub = "^1.54.1"
