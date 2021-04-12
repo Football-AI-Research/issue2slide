@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "survey"
+version = "0.1.0"
+description = ""
+authors = ["atomscott <atom.james.scott@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fire = "^0.4.0"
+pandas = "^1.2.3"
+google-api-python-client = "^2.1.0"
+google-auth-httplib2 = "^0.1.0"
+google-auth-oauthlib = "^0.4.4"
+python-dotenv = "^0.17.0"
+beautifulsoup4 = "^4.9.3"
+rich = "^10.1.0"
+mistune = "2.0.0rc1"
+lxml = "^4.6.3"
+
+[tool.poetry.dev-dependencies]
+PyGithub = "^1.54.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
